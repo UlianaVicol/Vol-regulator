@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>JS Calculator</title>
+    <link rel="stylesheet" href="vol-regulator.css">
+		
+  </head>
+<body>
+    <div id="player" class="container">
+        <input class="screen" value="50" size="8" disabled>
+        <div class="controls" >
+            <span class="min" onclick="down()" min="0">MIN</span>
+            <input type="range" min="-1" max="100" value="50" >
+            <span class="max" onclick="up()">MAX</span>
+        </div>
+    </div>
+</body>
+<script src="vol-regulator.js"></script>
+
+</html>

@@ -1,0 +1,55 @@
+body{
+  font-family: monospace;
+  background-color: #181818;
+ 
+}
+.container {
+  position: relative;
+  background-color: grey;
+  width: 30em;
+  height: 14em;
+  border-radius: 3%;
+  border: solid 0.25em #0e0e0e;
+  margin: 5em auto;
+  background: #181818;
+  background: -o-linear-gradient(#131313, #1d1d1d);
+  box-shadow: 0 0.2em 0.1em 0.05em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+}
+#player .controls{
+  width: 130px;
+  height: 35px;
+  position: relative;
+  margin: 0 auto;
+  top: 125px;
+}
+.screen {
+  text-align: center;
+  font-size: 1.3em ;
+  position: absolute;
+  bottom: 45%;
+  left: 27%;
+  width: 40%;
+  height: 10%;
+  background-color: #333;
+  color: white;
+  padding: 0.5em;
+}
+
+.min,
+.max {
+  display: block;
+  font-family: "Varela Round", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  cursor:pointer;
+  opacity: 0.6;
+}
+.min {
+  bottom: 1em;
+  left: -4.5em;
+}
+.max {
+  bottom: 1em;
+  right: -4.5em;
+}
